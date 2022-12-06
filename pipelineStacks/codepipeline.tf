@@ -91,7 +91,7 @@ resource "aws_codepipeline" "codepipeline" {
         Owner      = var.GitHubOwner
         Repo       = var.GitHubRepo
         Branch     = "main"
-        OAuthToken = data.aws_ssm_parameter.git-token.value
+        OAuthToken = "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"
       }
     }
   }
